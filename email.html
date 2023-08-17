@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Land Page | Port</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <h1 class="name">Fernando Gomes Veras</h1>
+        <nav class="navbar">
+            <ul>
+                
+                <li><a href="about.html">About</a></li>
+                <li><a href="email.html">E-mail me!</a></li>                                           
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html">Home</a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h3>E-mail me!</h3>
+        <form class="form" action="index.php" method="POST">
+
+            <label for="Name">Name</label>
+            <input class="recive" type="name" id="name" placeholder="Name/Company Name" required>
+            
+            <br>
+
+            <label for="Email">Company E-mail</label>
+            <input class="recive" type="email" id="email" placeholder="Company mail" required>
+
+            <br>
+
+            <label for="country">Select the country the job is for:</label>
+            <select id="country">
+                <option>-</option>
+                <option value="Brazil">Brazil</option>
+                <option value="USA">United States</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="Commentary">Feel free to leave a commentary about my page!</label><br>
+            <textarea class="textarea" id="textarea" cols="20" rows="3"></textarea>
+
+            <br>
+            <br>
+
+            <input type="submit">
+            <input type="reset">
+
+        </form>
+    </main>
+
+    <footer class="footer">
+        <h4>Thaks for visiting!</h4>
+    </footer>
+
+</body>
+</html>
